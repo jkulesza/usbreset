@@ -45,4 +45,4 @@ Now, we can automate execution with the following inline Perl command (assuming 
 
 1. Execute or embed in a script:
 
-```echo $(lsusb | grep Mouse);  wifipath=$( lsusb | grep "Wireless Adapter" | perl -nE "/\D+(\d+)\D+(\d+).+/; print qq(\$1/\$2)")  sudo usbreset /dev/bus/usb/$wifipath```
+```echo $(lsusb | grep "Wireless Adapter");  wifipath=$( lsusb | grep "Wireless Adapter" | perl -nE "/\D+(\d+)\D+(\d+).+/; print qq(\$1/\$2)")  sudo usbreset /dev/bus/usb/$wifipath```
