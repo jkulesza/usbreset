@@ -1,6 +1,6 @@
 # Linux USB Device Reset Application
 
-This application can be used to perform resets on USB devices.  This README describes the steps to compile, run, and then automate execution of this application to reset a USB wireless adapter with a great degree of authority than is available using `ifdown wlan0`/`ifup wlan0`.
+This application can be used to perform resets on USB devices.  This README describes the steps to compile, run, and then automate execution of this application to reset a USB wireless adapter with a greater degree of authority than is available using `ifdown wlan0`/`ifup wlan0`.
 
 Credit to Alan Stern for developing this program, as retrieved from: http://marc.info/?l=linux-usb&m=121459435621262&w=2
 
